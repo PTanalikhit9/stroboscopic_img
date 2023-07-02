@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 num_images = 10
 
 # Load all images
-images = [cv2.imread(f"fig{i+1}.png") for i in range(num_images)]
+images = [cv2.imread(f"fig{i+1}.jpeg") for i in range(num_images)]
 
 # Convert the images to HSV color space
 hsv_images = [cv2.cvtColor(img, cv2.COLOR_BGR2HSV) for img in images]
